@@ -7,6 +7,7 @@ api:
     - 83:80
   links:
     - mysql
+    - redis
   environment:
     MYSQL_DATABASE: ems
     MYSQL_USER: ems

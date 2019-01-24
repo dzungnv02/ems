@@ -58,6 +58,9 @@ RUN ln -s /usr/share/zoneinfo/Asia/Saigon /etc/localtime
 # Configure PHP
 ADD typo3.php.ini /etc/php/7.2/apache2/conf.d/
 
+# Install Laravel
+RUN composer global require laravel/installer
+
 # Configure vhost
 ADD typo3.default.conf /etc/apache2/sites-enabled/000-default.conf
 

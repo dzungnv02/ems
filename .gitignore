@@ -1,2 +1,3 @@
 ./new_ems.code-workspace
+./ems-docker/mysqldata
 .DS_Store
